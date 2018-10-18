@@ -1,9 +1,10 @@
 doctype html
 html
+    block cool-config
     head
-        title Learn to code HTML, CSS and JavaScript
-        meta(name="w3school-replica", content="This is a HTML replica of w3school")
-        link(rel="stylesheet", href='style.css')
+        title= myTitle
+        meta(name="w3school-replica", content= myDescription)
+        link(rel="stylesheet", href='/style.css')
     body
         include ../header/header
         article
