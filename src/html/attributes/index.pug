@@ -1,0 +1,19 @@
+extends ../../_component/layout/template
+
+block cool-config
+    -
+        var myTitle = 'Learn to code HTML Attributes for beginers';
+        var myDescription = 'Attributes provide additional information about HTML elements';
+        var landingPage = 'HTML';
+        var activeLink= '/html/attributes';
+
+block awesome-content
+    h1=title
+    p=description
+    h2 Example
+
+    p(title="This is a tooltip") This paragraph has a tooltip
+    a(href="http://youtube.com/codetap") And this takes you to CodeTap on YouTube
+    p The next image will have width of 200 and height of 100
+    img(src="https://via.placeholder.com/420x320/ff7f7f/333333?text=Sample", width="200", height="!00", alt="THis text shows some bred")
+
